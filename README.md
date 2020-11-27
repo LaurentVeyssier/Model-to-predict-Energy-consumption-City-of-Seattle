@@ -13,9 +13,9 @@ Seattle's Energy Benchmarking Program requires owners of non-residential and mul
 
 # Project structure
 
-A significant part of the project is dedicated to prepare and clean the raw data for the machine learning algorithms.
-Two years of data (2015 & 2016) are used.
-The project steps include:
+A significant part of the project is dedicated to the preparation and cleaning of the raw data so that it can be used by the machine learning algorithms.
+Two years of data (2015 & 2016) are compiled.
+The steps include:
 - Loading and Exploring the datasets
 - Harmonize the datasets so that they can be combined
 - Develop strategy for missing values
@@ -24,5 +24,5 @@ The project steps include:
 - Train model and test accuracy
 - Observe the most important features
 
-RandomForest and XGBoost are used and achieve over 97% accuracy.
-More important features are building floor area, building year and the number of floors. Building surface is obvious a key driver for energy consumption.
+RandomForest and XGBoost models are trained and achieve over 97% accuracy.
+Most important features are total surface area, building year and the number of floors. Building surface is obvious a key driver for energy consumption.
