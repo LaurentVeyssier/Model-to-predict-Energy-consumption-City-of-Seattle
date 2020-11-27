@@ -26,4 +26,5 @@ The steps include:
 
 RandomForest and XGBoost models are trained and low root mean squared error (RMSE performance metric).
 - XGBoost (Extreme Gradient Boosting) belongs to a family of boosting algorithms. Boosting is a sequential technique which works on the principle of an ensemble. It combines a set of weak learners and delivers improved prediction accuracy.
+
 Most important features are total surface area, building year and the number of floors. Building surface is obvious a key driver for energy consumption.
