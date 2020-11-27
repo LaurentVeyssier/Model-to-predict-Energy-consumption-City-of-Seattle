@@ -20,7 +20,7 @@ The steps include:
 - Harmonize the datasets so that they can be combined
 - Develop strategy for missing values
 - Decide on the features to keep and those to discard
-- Prepare the cleaned dataset for training and testing
+- Prepare the cleaned dataset for training and testing. Feature engineering.
 - Train model and test accuracy
 - Observe the most important features. These are the most important features in explaining the target variable (energy consumption).
 
