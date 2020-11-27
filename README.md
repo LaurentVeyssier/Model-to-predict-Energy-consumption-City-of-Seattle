@@ -22,7 +22,8 @@ The steps include:
 - Decide on the features to keep and those to discard
 - Prepare the cleaned dataset for training and testing
 - Train model and test accuracy
-- Observe the most important features
+- Observe the most important features. These are the most important features in explaining the target variable (energy consumption).
 
 RandomForest and XGBoost models are trained and achieve over 97% accuracy.
+- XGBoost (Extreme Gradient Boosting) belongs to a family of boosting algorithms. Boosting is a sequential technique which works on the principle of an ensemble. It combines a set of weak learners and delivers improved prediction accuracy.
 Most important features are total surface area, building year and the number of floors. Building surface is obvious a key driver for energy consumption.
